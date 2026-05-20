@@ -1,0 +1,16 @@
+[
+  {
+    "name": "consultar_chip_biomedico",
+    "description": "Coleta em tempo real dados fisiológicos (temperatura, pressão arterial, frequência cardíaca e glicose) sincronizados pelo chip implantado do paciente.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "paciente_id": {
+          "type": "string",
+          "description": "Identificador único do beneficiário Care Plus."
+        }
+      },
+      "required": ["paciente_id"]
+    }
+  }
+]
